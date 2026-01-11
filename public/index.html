@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mazedev - Wujudkan Website Impian Anda!">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Mazedev</title>
+</head>
+<body class="min-h-screen">
+    <!-- Navigation Bar Section -->
+    <header class="fixed top-0 z-50 w-full md:sticky">
+        <!-- Navigation Bar -->
+        <nav class="bg-linear-to-l from-violet-500 to-blue-500 px-6 py-4
+              flex flex-col md:flex-row
+              justify-between items-center">
+            <!-- Brand -->
+            <div class="flex gap-x-2 justify-center items-center">
+                <i class="fas fa-code text-white text-3xl"></i>
+                <div>
+                    <h1 class="text-white text-3xl font-bold">Mazedev</h1>
+                    <p class="text-white text-sm">Wujudkan Website Impian Anda!</p>
+
+                </div>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex gap-x-6 justify-center items-center mt-4 md:mt-0">
+                <a href="#beranda" class="relative inline-block text-white font-semibold text-md after:content-['']
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-0.5 after:w-full
+                    after:bg-red-500
+                    after:scale-x-0 after:origin-left
+                    after:transition-transform after:duration-300
+                    hover:after:scale-x-100">
+                    Beranda
+                </a>
+                <a href="#harga" class="relative inline-block text-white font-semibold text-md after:content-['']
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-0.5 after:w-full
+                    after:bg-red-500
+                    after:scale-x-0 after:origin-left
+                    after:transition-transform after:duration-300
+                    hover:after:scale-x-100">
+                    Harga
+                </a>
+                <a href="#template" class="relative inline-block text-white font-semibold text-md after:content-['']
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-0.5 after:w-full
+                    after:bg-red-500
+                    after:scale-x-0 after:origin-left
+                    after:transition-transform after:duration-300
+                    hover:after:scale-x-100">
+                    Template
+                </a>
+                <a href="#kontak" class="relative inline-block text-white font-semibold text-md after:content-['']
+                    after:absolute after:left-0 after:-bottom-1
+                    after:h-0.5 after:w-full
+                    after:bg-red-500
+                    after:scale-x-0 after:origin-left
+                    after:transition-transform after:duration-300
+                    hover:after:scale-x-100">
+                    Kontak
+                </a> 
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="scroll-mt-20">
+        <div class="mt-32 md:mt-0 bg-linear-to-t from-violet-50 to-blue-50 flex flex-col justify-center items-center text-center py-20 px-5">
+            <h1 class="text-4xl md:text-5xl font-bold bg-linear-to-l from-violet-500 to-blue-500 bg-clip-text text-transparent leading-relaxed">Website Profesional dengan Harga Terjangkau</h1>
+            <p class="my-4 text-md text-gray-500 leading-relaxed w-sm md:w-3xl md:text-lg">Mazedev hadir untuk mewujudkan website impian Anda. Dengan template modern yang responsif, website Anda akan tampil menarik di semua perangkat.</p>
+            <button class="mt-7">
+                <a href="#" class="inline-block bg-linear-to-l from-violet-500 to-blue-500 text-white px-7 py-4 rounded-full font-semibold shadow-lg transform hover:-translate-y-1.5 hover:shadow-xl transition-all duration-300 ease-out">
+                    Lihat Template Kami
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Harga Section -->
+    <section id="harga" class="scroll-mt-12 md:scroll-mt-6">
+        <div class="bg-white flex flex-col justify-center items-center text-center py-20 px-5">
+            <h2 class="text-3xl md:text-4xl font-bold bg-linear-to-l from-violet-500 to-blue-500 bg-clip-text text-transparent leading-relaxed">Paket Harga Pembuatan Website</h2>
+            <p class="my-4.5 text-md text-gray-500 leading-relaxed w-sm md:w-3xl md:text-lg">Pilih paket yang sesuai dengan kebutuhan website Anda. Harga terjangkau dengan kualitas terbaik.</p>
+
+            <!-- Paket Harga -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+                <!-- Paket Standar-->
+                <div class="bg-gray-50 rounded-xl w-0.5xs p-8 shadow-lg transform hover:-translate-y-2 hover:shadow-xl hover:ring-3 hover:ring-blue-500 transition-all duration-300 ease-out">
+                    <h3 class="text-2xl text-left font-bold mb-4">Paket Dasar</h3>
+                    <div class="flex gap-1 my-10">
+                        <p class="text-blue-500 text-4xl font-bold">Rp 70.000</p>
+                        <span class="text-gray-500 flex items-baseline-last">/ 1 halaman</span>
+
+                    </div>
+                    <ul class="my-6 text-gray-800 space-y-5">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>1 Halaman website statis</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Template pilihan</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Responsif (mobile friendly)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Siap pakai</span>
+                        </li>
+                    </ul>
+                    <a href="#" target="_blank" class="inline-block mt-4 bg-linear-to-l from-violet-500 to-blue-500 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition-scale duration-300 ease-out">
+                        Pilih Paket
+                    </a>
+                </div>
+
+                <!-- Paket Bisnis-->
+                <div class="bg-gray-50 rounded-xl w-0.5xs p-8 shadow-lg transform hover:-translate-y-2 hover:shadow-xl hover:ring-3 hover:ring-blue-500 transition-all duration-300 ease-out">
+                    <h3 class="text-2xl text-left font-bold mb-4">Paket Bisnis</h3>
+                    <div class="flex gap-1 my-10">
+                        <p class="text-blue-500 text-4xl font-bold">Rp 180.000</p>
+                        <span class="text-gray-500 flex items-baseline-last">/ 4 halaman</span>
+
+                    </div>
+                    <ul class="my-6 text-gray-800 space-y-5">
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>4 Halaman website statis</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Template pilihan</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Responsif (mobile friendly)</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Optimasi SEO Dasar</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Integrasi Media Sosial</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-check text-blue-400"></i>
+                            <span>Siap pakai</span>
+                        </li>
+                    </ul>
+                    <a href="#" target="_blank" class="inline-block mt-4 bg-linear-to-l from-violet-500 to-blue-500 text-white px-5 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition-scale duration-300 ease-out">
+                        Pilih Paket
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-15">
+                <p class="text-sm text-gray-400">*Harga belum termasuk domain dan hosting custom</p>
+            </div>
+        </div>
+    </section>
+    <!-- Template Section -->
+    <section id="template" class="scroll-mt-12 md:scroll-m-0">
+        <div class="bg-linear-to-t from-violet-50 to-blue-50 flex flex-col justify-center items-center text-center py-20 px-5">
+            <h2 class="text-3xl md:text-4xl font-bold bg-linear-to-l from-violet-500 to-blue-500 bg-clip-text text-transparent leading-relaxed">Template Website Kami</h2>
+            <p class="my-4.5 text-sm text-gray-500 leading-relaxed w-sm md:w-3xl md:text-lg">Jelajahi berbagai template modern dan responsif yang kami tawarkan. Pilih yang sesuai dengan gaya dan kebutuhan Anda.</p>
+
+            <!-- Template Gallery -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+                <!-- Template 1 -->
+                <div class="relative group lg:w-92 rounded-xl bg-white overflow-hidden transform transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+                    <!-- Badge Angka -->
+                    <div class="absolute top-3 right-3 z-20
+                                w-8 h-8 rounded-full
+                                bg-blue-500 text-white
+                                flex items-center justify-center
+                                text-sm font-bold group-hover:opacity-0 transition-opacity duration-300">
+                        1
+                    </div>
+                    <!-- Image wrapper -->
+                    <div class="overflow-hidden">
+                        <img 
+                        src="https://as1.ftcdn.net/v2/jpg/02/48/42/64/1000_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
+                        alt="Project Image"
+                        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                    </div>
+
+                    <!-- Content -->
+                    <div class="py-5 px-1">
+                        <h3 class="text-xl font-bold">Template Bisnis Profesional</h3>
+                        <p class="mt-2 text-md text-gray-500">
+                        Template modern untuk bisnis dan perusahaan dengan desain clean dan profesional.
+                        </p>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="flex justify-center items-center space-between gap-6 mb-8">
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-transparent ring-2 ring-blue-500 text-blue-500 w-30 h-12 rounded-full text-sm font-semibold shadow hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-out">
+                            Preview
+                        </a>
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-linear-to-l from-violet-500 to-blue-500 text-white w-30 h-12 rounded-full text-sm font-semibold shadow hover:scale-105 transition-scale duration-300 ease-out">
+                            Pesan
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Template 2 -->
+                <div class="relative group lg:w-92 rounded-xl bg-white overflow-hidden transform transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+                    <!-- Badge Angka -->
+                    <div class="absolute top-3 right-3 z-20
+                                w-8 h-8 rounded-full
+                                bg-blue-500 text-white
+                                flex items-center justify-center
+                                text-sm font-bold group-hover:opacity-0 transition-opacity duration-300">
+                        2
+                    </div>
+                    <!-- Image wrapper -->
+                    <div class="overflow-hidden">
+                        <img 
+                        src="https://as1.ftcdn.net/v2/jpg/02/48/42/64/1000_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
+                        alt="Project Image"
+                        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold">Template Portofolio Kreatif</h3>
+                        <p class="mt-2 text-md text-gray-500">
+                        Template untuk menampilkan portofolio karya dengan desain kreatif dan menarik.
+                        </p>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="flex justify-center items-center space-between gap-6 mb-8">
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-transparent ring-2 ring-blue-500 text-blue-500 w-30 h-12 rounded-full text-sm font-semibold shadow hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-out">
+                            Preview
+                        </a>
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-linear-to-l from-violet-500 to-blue-500 text-white w-30 h-12 rounded-full text-sm font-semibold shadow hover:scale-105 transition-scale duration-300 ease-out">
+                            Pesan
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- Template 3 -->
+                <div class="relative group lg:w-92 rounded-xl bg-white overflow-hidden transform transition-all duration-300 hover:-translate-y-3 hover:shadow-xl">
+                    <!-- Badge Angka -->
+                    <div class="absolute top-3 right-3 z-20
+                                w-8 h-8 rounded-full
+                                bg-blue-500 text-white
+                                flex items-center justify-center
+                                text-sm font-bold group-hover:opacity-0 transition-opacity duration-300">
+                        3
+                    </div>
+                    <!-- Image wrapper -->
+                    <div class="overflow-hidden">
+                        <img 
+                        src="https://as1.ftcdn.net/v2/jpg/02/48/42/64/1000_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg"
+                        alt="Project Image"
+                        class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                    </div>
+
+                    <!-- Content -->
+                    <div class="p-5">
+                        <h3 class="text-xl font-bold">Template Toko Online</h3>
+                        <p class="mt-2 text-md text-gray-500">
+                        Template untuk toko online dengan layout produk yang menarik dan mudah dinavigasi.
+                        </p>
+                    </div>
+
+                    <!-- Button -->
+                    <div class="flex justify-center items-center space-between gap-6 mb-8">
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-transparent ring-2 ring-blue-500 text-blue-500 w-30 h-12 rounded-full text-sm font-semibold shadow hover:bg-blue-100 hover:scale-105 transition-all duration-300 ease-out">
+                            Preview
+                        </a>
+                        <a href="#" target="_blank" class="inline-flex justify-center items-center bg-linear-to-l from-violet-500 to-blue-500 text-white w-30 h-12 rounded-full text-sm font-semibold shadow hover:scale-105 transition-scale duration-300 ease-out">
+                            Pesan
+                        </a>
+                    </div>
+
+                </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontak" class="scroll-mt-12 md:scroll-mt-6">
+    <div class="bg-white">
+        
+        <!-- Header -->
+        <div class="flex flex-col justify-center items-center text-center py-20">
+            <h2 class="text-3xl md:text-4xl font-bold bg-linear-to-l from-violet-500 to-blue-500 bg-clip-text text-transparent leading-relaxed">
+                Hubungi Kami
+            </h2>
+            <p class="mt-4 text-md text-gray-500 leading-relaxed max-w-xl md:max-w-3xl md:text-lg">
+                Ingin tahu lebih lanjut atau memulai proyek website Anda? Hubungi kami melalui formulir di bawah ini.
+            </p>
+        </div>
+
+        <!-- Content -->
+        <div class="max-w-6xl mx-auto px-6 pb-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+
+                <!-- Informasi Kontak -->
+                <div class="flex flex-col items-start text-left">
+                    <h3 class="text-2xl font-bold mb-4">Informasi Kontak</h3>
+                    <p class="text-gray-500 leading-relaxed mb-5">
+                        Hubungi kami untuk konsultasi gratis atau pemesanan jasa pembuatan website. Kami siap membantu mewujudkan website impian Anda!
+                    </p>
+                    <ul class="flex flex-col gap-4">
+                        <li class="flex flex-row items-center gap-1 font-bold">
+                            <i class="fa-brands fa-whatsapp text-xl text-blue-500 p-3 bg-blue-100 rounded-full mr-4"></i> 
+                            WhatsApp 
+                            <a href="https://wa.me/+6287760458660" target="_blank" class="font-normal hover:text-blue-400 transition-colors duration-300 ease-out">0877-6045-8660</a>
+                        </li>
+                        <li class="flex flex-row items-center gap-1 font-bold">
+                            <i class="fa-solid fa-envelope text-xl text-blue-500 p-3 bg-blue-100 rounded-full mr-4"></i> 
+                            Email
+                            <a href="mailto:mazedev21@gmail.com" class="font-normal hover:text-blue-400 transition-colors duration-300 ease-out">mazedev21@gmail.com</a>
+                        </li>
+                        <li class="flex flex-row items-center gap-1 font-bold">
+                            <i class="fa-brands fa-instagram text-xl text-blue-500 p-3 bg-blue-100 rounded-full mr-4"></i>
+                            Instagram
+                            <a href="https://www.instagram.com/mazedev_id" target="_blank" class="font-normal hover:text-blue-400 transition-colors duration-300 ease-out">@mazedev_id</a>
+                        </li>
+                        <li class="flex flex-row items-center gap-1 font-bold">
+                            <i class="fa-brands fa-whatsapp text-xl text-blue-500 p-3 bg-blue-100 rounded-full mr-4"></i> 
+                            Portofolio
+                            <a href="https://henji-portofolio.vercel.app" target="_blank" class="font-normal hover:text-blue-400 transition-colors duration-300 ease-out">henji-portofolio.vercel.app</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="flex flex-col items-start text-left">
+                    <h3 class="text-2xl font-bold mb-4">Formulir Kontak</h3>
+                    <p class="text-gray-500 leading-relaxed mb-5">
+                        Isi formulir di bawah ini dan kami akan menghubungi Anda sesegera mungkin.
+                    </p>
+                    <form class="w-full max-w-lg">
+                        <div class="font-semibold mb-2">
+                            <label for="nama">Nama Lengkap</label>
+                        </div>
+                        <div class="mb-6">
+                            <input
+                                type="text"
+                                placeholder="Nama Lengkap"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                id="nama"
+                            />
+                        </div>
+
+
+                        <div class="font-semibold mb-2">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="mb-6">
+                            <input
+                                type="email"
+                                placeholder="Email"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                id="email"
+                            />
+                        </div>
+                        
+                        <div class="font-semibold mb-2">
+                            <label for="templateMinat">Template Minat</label>
+                        </div>
+                        <div class="mb-6">
+                            <select name="template-minat" id="templateMinat" class="cursor-pointer w-full outline-1 outline-gray-200 p-3 rounded-lg">
+                                <option value="" disabled selected>Pilih Template yang Anda Minati</option>
+                                <option value="Template Bisnis Profesional">Template Bisnis Profesional</option>
+                                <option value="Template Portofolio Kreatif">Template Portofolio Kreatif</option>
+                                <option value="Template Toko Online">Template Toko Online</option>
+                                <option value="Lainya (Konsultasi Dulu)">Lainya (Konsultasi Dulu)</option>
+                            </select>
+                        </div>
+
+                        <div class="font-semibold mb-2">
+                            <label for="pesan">Pesan</label>
+                        </div>
+                        <div class="mb-6">
+                            <textarea
+                                placeholder="Pesan Anda"
+                                rows="5"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                id="pesan"
+                            ></textarea>
+                        </div>
+                        <div class="flex justify-center items-center">
+                            <button
+                                type="submit"
+                                class="cursor-pointer bg-linear-to-l from-violet-500 to-blue-500 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:scale-105 transition-scale duration-300 ease-out">
+                                Kirim Pesan
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-linear-to-l from-violet-500 to-blue-500 text-white py-6 px-5">
+        <div class="flex flex-col md:flex-row justify-center items-center">
+            <p class="text-sm">&copy; 2025 Mazedev. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

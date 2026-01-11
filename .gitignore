@@ -1,0 +1,16 @@
+# Node.js dependencies
+node_modules/
+
+# VS Code settings
+.vscode/
+
+#output css
+output.css
+
+# Environment files (optional, but recommended)
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
